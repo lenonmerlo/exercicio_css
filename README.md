@@ -23,4 +23,20 @@ Os arquivos deste exercício estão na branch `exercicio_css`.
     cd exercicio_css
     ```
 
+3. Mude para a branch `exercicio_css`:
+    ```bash
+    git checkout exercicio_css
+    ```
+
+4. Abra o arquivo `index.html` no seu navegador para visualizar os estilos aplicados.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+
 3. Mude pa
