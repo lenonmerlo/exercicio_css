@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #292727a2;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+}
+
+section {
+    margin: 2rem 1rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(241, 232, 232, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+article {
+    margin-bottom: 2rem;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+article header time {
+    font-size: 0.9rem;
+    color: rgb(242, 235, 235);
+    padding: auto;
+}
+
+article h3 {
+    margin: 0.5rem 0;
+}
+
+article p {
+    margin: 0.5rem 0 1rem;
+}
+
+article a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+article a:hover {
+    color: #0056b3;
+}
+
+/* Estilos específicos para cada seção */
+#sports {
+    background-color: #e3f2fd;
+}
+
+#economy {
+    background-color: #fff3e0;
+}
+
+#entertainment {
+    background-color: #fce4ec;
+}
+
+#technology {
+    background-color: #e8f5e9;
+}
+.fig{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+} 
+.footer p {
+    margin: 0;
+}
+
+.footer .back-to-top {
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.footer .back-to-top:hover {
+    background-color: #0056b3;
+}
